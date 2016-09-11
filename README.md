@@ -3,7 +3,7 @@
 [Signal Function Library] for **Arduino**, for easy and custom design of signals. With this library we can easily create signals with any shape.  Instead of just abrupts on/off LEDs we can design fade in/out signals, triangular, sinusoid, sawtooth singals, or even signals that emulate the hearbeat or breath... whatever we can imagine with a little configuration. There are many examples of signal functions (main.ino) and videos in the [repository]. Check a real time emulation in [circuits.io].
 ![alt tag][img/circuits_io.jpg]
 
- 
+ 
 
 --------------------------------------------------------------------------------
 ## CONFIGURATION
@@ -44,9 +44,9 @@ short int Tn[VTsize]  = {0,  70, 80,  90};
 - `T=80, T=90`: from 80% to 90% of the `period`, the output is `Vn[2]=0(LOW)`.
 - `T=90, T=100`: from 90% to 100% of the `period`, the output is `Vn[3]=100(HIGH)`. We don't need to write a `T=100` because it automatically understands that it has to finish in `T=100` after the last `T`.
 
- 
+ 
 
- 
+ 
 
 --------------------------------------------------------------------------------
 ## LICENSE
@@ -63,4 +63,4 @@ Under development.
 
 [//]: # (.md editor: <http://dillinger.io/>)
 [//]: # (.md cheatsheet: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>)
-[//]: # (Invisible character for extra line breaking " ": <http://stackoverflow.com/questions/17978720/invisible-characters-ascii>)
+[//]: # (Invisible character for extra line breaking " ": <http://stackoverflow.com/questions/17978720/invisible-characters-ascii>)
