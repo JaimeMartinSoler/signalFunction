@@ -70,7 +70,8 @@ void SignalFunction::refresh()
 
 
 // refresh(int delayMs): delay(delayMs) and refresh the output signal value
-// executionTime=220-240us (in Arduino UNO, if delayMs=0) 
+// executionTime=220-240us (in Arduino UNO, if delayMs=0)
+// it manages the timing with the inner clock (millis())
 void SignalFunction::refresh(int delayMs)
 {
   // add delay (with some delay the loop is not executed unnecesarly fast)
