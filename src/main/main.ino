@@ -53,6 +53,16 @@ void setup() {
   short int sf_Tn[sf_VTsize]  = {  0, dc};
   */
 
+  // DOUBLE FLASH/BEEP FUNCTION
+  /*
+  int sf_enable               = ENABLE_NORMAL;
+  int sf_type                 = TYPE_DIGITAL;
+  int sf_period               = 1000; 
+  const int sf_VTsize         = 4;
+  short int sf_Vn[sf_VTsize]  = {0, 100,  0, 100};
+  short int sf_Tn[sf_VTsize]  = {0,  70, 80,  90};
+  */
+
   // TRIANGULAR FUNCTION
   /*
   int sf_enable               = ENABLE_NORMAL;

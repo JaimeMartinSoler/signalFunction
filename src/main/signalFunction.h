@@ -35,9 +35,9 @@ class SignalFunction
 {
   public:
     // PARAMETERS -----------------------------------------------------------
-    int enable;     // 0:ALWAYS_LOW; 1:NORMAL; 2:ALWAYS_HIGH
+    int enable;     // ALWAYS_LOW(0), NORMAL(1), ALWAYS_HIGH(2)
     int pin;        // the Arduino pin where it takes the signal
-    int type;       // whether consider the function analog or digital
+    int type;       // TYPE_ANALOG(true), TYPE_DIGITAL(false)
     int period;     // the ms to take a cycle (signal function is periodical)
     short int *Vn;  // array with all voltage points (normalized to [VnMIN,VnMAX])
     short int *Tn;  // array with all time    points (normalized to [VnMIN,VnMAX])
