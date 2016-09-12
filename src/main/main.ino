@@ -34,7 +34,7 @@ void setup() {
 
   // ALWAYS ON/OFF FUNCTION
   /*
-  int sf_enable               = ENABLE_ALWAYS_HIGH;  // ON:ENABLE_ALWAYS_HIGH, OFF:ENABLE_ALWAYS_LOW
+  int sf_enable               = ENABLE_ALWAYS_LOW;  // ON:ENABLE_ALWAYS_HIGH, OFF:ENABLE_ALWAYS_LOW
   int sf_type                 = TYPE_DIGITAL;
   int sf_period               = 0;
   const int sf_VTsize         = 0;
@@ -113,14 +113,14 @@ void setup() {
   short int sf_Tn[sf_VTsize]  = {0, 30,  80};
   */
 
-  // DOUBLE HEARTBEAT FUNCTION(default)
+  // DOUBLE HEARTBEAT FUNCTION (default)
   int sf_enable               = ENABLE_NORMAL;
   int sf_type                 = TYPE_ANALOG;
   int sf_period               = 1500;  // Slow:3000; SlowNormal:2250; Normal:1500; FastNormal:1125; Fast:750
   const int sf_VTsize         = 20;
   short int sf_Vn[sf_VTsize]  = {0, 50,100, 66, 33,  0,  0, 50,100, 66, 33,  0,  0,  0,  0,  0,  0,  0,  0,  0};
   short int sf_Tn[sf_VTsize]  = {0,  5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95}; 
-  
+
   // set sf
   sf.set(sf_enable, PIN_SIGNAL, sf_type, sf_period, sf_Vn, sf_Tn, sf_VTsize);
 }
