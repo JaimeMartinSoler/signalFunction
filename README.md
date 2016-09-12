@@ -16,7 +16,7 @@ int pin;        // the Arduino pin where it takes the signal
 int type;       // TYPE_ANALOG(true), TYPE_DIGITAL(false)
 int period;     // the ms to take a cycle (signal function is periodical)
 short int *Vn;  // array with all voltage points (normalized to [VnMIN,VnMAX])
-short int *Tn;  // array with all time    points (normalized to [VnMIN,VnMAX])
+short int *Tn;  // array with all time    points (normalized to [TnMIN,TnMAX])
 int VTsize;     // number of points of the function (size of Vn and Tn)
 ```
 ### Analog Signals (TYPE_ANALOG):
