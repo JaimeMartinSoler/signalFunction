@@ -50,7 +50,7 @@ short int Tn[VTsize]  = {0,  70, 80,  90};
 
 --------------------------------------------------------------------------------
 ## LICENSE
-Under development.
+This software is under [MIT license].
 
 
 [Signal Function Library]: <https://github.com/JaimeMartinSoler/signalFunction>
@@ -59,8 +59,9 @@ Under development.
 [circuits.io]: <https://circuits.io/circuits/2695925-signalfunction>
 [main.ino]: <https://github.com/JaimeMartinSoler/signalFunction/blob/master/src/main/main.ino>
 [img/circuits_io.jpg]: <https://raw.githubusercontent.com/JaimeMartinSoler/signalFunction/master/img/circuits_io.jpg>
-
+[MIT license]: <https://github.com/JaimeMartinSoler/signalFunction/blob/master/license>
 
 [//]: # (.md editor: <http://dillinger.io/>)
 [//]: # (.md cheatsheet: <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>)
 [//]: # (Invisible character for extra line breaking " ": <http://stackoverflow.com/questions/17978720/invisible-characters-ascii>)
+[//]: # (MIT license: <https://opensource.org/licenses/MIT>)
